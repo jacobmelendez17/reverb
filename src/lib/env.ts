@@ -6,5 +6,5 @@ export const env = createEnv({
         DATABASE_URL: z.string().min(1),
     },
     experimental__runtimeEnv: {},
-    skipValidation: !!process.env.KIP_ENV_VALIDATION,
+    skipValidation: !!process.env.SKIP_ENV_VALIDATION,
 })
